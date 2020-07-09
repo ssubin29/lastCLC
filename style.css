@@ -1,0 +1,165 @@
+.navi:hover {
+    color: lightpink;
+}
+.js-clock {
+    text-align: center;
+}
+
+/*웹폰트 등록 문법*/
+@font-face {
+    font-family: 'DIEHLDA';/*임의로 폰트 이름*/
+    src: url('DIEHLDA_.ttf');
+}
+
+@font-face {
+    font-family: 'Dyn';/*임의로 폰트 이름*/
+    src: url('Dynalight-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'lmm';/*임의로 폰트 이름*/
+    src: url('lmmono10-regular.otf');
+}
+
+.movie {
+    margin: 10px 10px 10px 10px;
+
+}
+
+.music {
+    float: left;
+}
+
+.art {
+    float: left;
+}
+
+.contact-info {
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/*위에서 등록한 폰트 적용*/
+.movieTitle {
+    font-family: 'DIEHLDA';
+    letter-spacing: 5px;
+    text-align: center;
+    font-size: xx-large;
+    color: grey;
+}
+
+.star {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.movieInfo {
+    font-family: 'Dyn';
+    text-align: center;
+    font-size: x-large;
+}
+
+.navi {
+    text-align: center;
+    font-family: 'lmm';
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    /*position: fixed;
+    top: 0;*/
+}
+
+.nav-item {
+    text-align: center;
+    padding: 15px;
+    cursor: pointer;
+    color: darkblue;
+}
+
+.nav-item a {
+    text-align: center;
+    text-decoration: none; /*밑줄 없앰*/
+    color: lightgoldenrodyellow;
+    text-shadow: grey;
+}
+
+img { 
+   float: left;
+   margin-left: 30px;     
+}
+
+header {
+    text-align: center;
+    font-family: 'Dyn';
+    color: gray;
+}
+
+/*버튼*/
+.selectSp {
+    border-radius: 40px;
+    line-height: 0.5;
+    border: 2px;
+    border-style: double;
+    border-color: #DBC7C9;
+    padding: 20px 20px;
+    text-shadow: 1px 1px 1px #000;
+    cursor: pointer;
+    background-color: #EDEeEf;
+    color: #B89A8A;
+}
+.selectSu {
+    border-radius: 40px;
+    line-height: 0.5;
+    border: 2px;
+    border-style: double;
+    border-color: #A4CAED;
+    padding: 20px 20px;
+    text-shadow: 1px 1px 1px #000;
+    cursor: pointer;
+    background-color: #E3EAF3;
+    color: #F89D70;
+}
+.selectAu {
+    border-radius: 40px;
+    line-height: 0.5;
+    border: 2px;
+    border-style: double;
+    border-color: #464653;
+    padding: 20px 20px;
+    text-shadow: 1px 1px 1px #000;
+    cursor: pointer;
+    background-color: #D2D6D7;
+    color: #BA455B;
+}
+.selectWi {
+    border-radius: 40px;
+    line-height: 0.5;
+    border: 2px;
+    border-style: double;
+    border-color: #708098;
+    padding: 20px 20px;
+    text-shadow: 1px 1px 1px #000;
+    cursor: pointer;
+    background-color: #F2E3EA;
+    color: #B9CDE3;
+}
+
+#btn {
+    float: center;
+}
+
+.xxxlarge {
+    font-family: 'Dyn';
+    align-items: center;
+    text-align: center;
+    font-size: 300%;
+} 
+.xxxlarge1 {
+    font-family: 'Dyn';
+    text-align: center;
+    font-size: 300%;
+} 
